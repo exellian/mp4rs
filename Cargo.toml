@@ -24,11 +24,11 @@ async = ["tokio"]
 [dependencies]
 thiserror = "^1.0"
 byteorder = "1"
-bytes = "0.5"
+bytes = "0.6"
 num-rational = "0.3"
 
 [dependencies.tokio]
-version = "0.2"
+version = "0.3"
 default-features = false
 optional = true
 features = ["macros", "io-util", "fs"]
